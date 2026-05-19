@@ -1,0 +1,63 @@
+# Dependencias Node
+/node_modules
+
+# Dependencias PHP Composer
+/vendor
+
+# Variables de entorno
+.env
+.env.local
+.env.production
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Carpetas de build temporales
+/dist
+/tmp
+/temp
+
+# Archivos compilados opcionales
+/public/build
+
+# Si quieres subir build al servidor manualmente,
+# comenta la línea anterior
+
+# IDEs y editores
+.vscode/
+.idea/
+
+# Archivos de configuración locales
+*.local
+
+# Caché
+.cache/
+
+# Archivos Sass cache
+.sass-cache/
+
+# Archivos de pruebas
+coverage/
+
+# Configuración del sistema
+*.pid
+*.seed
+*.pid.lock
+
+# Archivos comprimidos
+*.zip
+*.tar
+*.gz
+
+# Archivos SQL locales
+*.sql
+
+# XAMPP / logs
+xampp-control.ini

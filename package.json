@@ -1,0 +1,28 @@
+{
+  "name": "app-salon-php-mvc-sass",
+  "version": "1.0.0",
+  "description": "AppSalon - Curso Desarrollo web Completo",
+  "author": "Adrian Ramos",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "gulp",
+   "tailwind": "node ./node_modules/@tailwindcss/cli/dist/index.mjs -i ./src/scss/tailwind.css -o ./public/build/css/tailwind.css --watch"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.0",
+    "@tailwindcss/postcss": "^4.3.0",
+    "autoprefixer": "^10.5.0",
+    "glob": "^10.3.12",
+    "gulp": "^5.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-terser": "^2.1.0",
+    "postcss": "^8.5.14",
+    "sass": "^1.75.0",
+    "sharp": "^0.33.3",
+    "tailwindcss": "^4.3.0"
+  }
+}
